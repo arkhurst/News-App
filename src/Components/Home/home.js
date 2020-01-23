@@ -24,7 +24,7 @@ const Home = () => {
               loadmore={true}
               start={0}
               amount={3}
-            />
+            /> 
         </div>
     )
 }

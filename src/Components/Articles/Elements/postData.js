@@ -1,5 +1,10 @@
 import React from 'react';
+import moment from 'moment';
 import '../articles.css';
+
+const formatDate = (date) => {
+    return moment(date).format(' DD-MM-YYYY')
+}
 
 const PostData = (props) => {
     return (
@@ -7,7 +12,7 @@ const PostData = (props) => {
             <div>
                 Date:
                 <span>
-                    <strong>{props.data.date}</strong> 
+                    <strong>{formatDate(props.data.date)}</strong> 
                 </span>
             </div>
             <div>

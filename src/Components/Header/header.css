@@ -12,7 +12,12 @@
     padding-top: 8px;
 }
 .logo img {
-    width: 35px;
+    position: absolute;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 70%;
+  
 }
 .bars{
     color: #dfdfdf;

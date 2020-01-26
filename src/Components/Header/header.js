@@ -20,7 +20,7 @@ const Header = (props) => {
   const logo = () => {
         return(
             <Link to="/" className="logo">
-                <img className="logo img"alt="nba logo" src="/images/nba_logo.png"/>
+                <img className="logo img"alt="nba logo" src="/images/HEADER_NEW.png"/>
             </Link>
         )
     }

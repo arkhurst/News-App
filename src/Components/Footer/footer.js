@@ -7,10 +7,11 @@ const Footer = () => {
     return (
         <div className="footer">
             <Link>
-               <img className="logo img"alt="nba logo" src="/images/nba_logo.png"/>
+               <img className="logo img"alt="nba logo" src="/images/logo-final.png"/>
             </Link>
             <div className="right">
-                @NBA {CURRENT_YEAR} All rights reserved
+                @dejaysblog {CURRENT_YEAR} 
+                All rights reserved
             </div>
         </div>
     )
